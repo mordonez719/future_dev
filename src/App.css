@@ -56,3 +56,9 @@ nav{
       transform: rotate(0deg);
     }
 }
+
+footer{
+  width: 100%;
+  height: 7%;
+  background-color:black;
+}
