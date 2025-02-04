@@ -1,0 +1,14 @@
+.mentor-container{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    width: 75%;
+}
+.member-pic{
+    width: 100%;
+}
+
+.mentor-card{
+    width: 25vw;
+    text-align: left;
+}

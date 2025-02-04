@@ -16,7 +16,7 @@ function App() {
         <NavLink className="page-link" to="/">Home</NavLink>
         <NavLink className="page-link" to="/events">Event Calendar</NavLink>
         <NavLink className="page-link" to="/mentors">Mentors</NavLink>
-        <NavLink className="page-link" to="/exec">Exec</NavLink>
+        <NavLink className="page-link" to="/exec">Executive Board</NavLink>
       </nav>
     </header>
     <div id="main-content-holder">

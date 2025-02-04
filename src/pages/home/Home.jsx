@@ -4,7 +4,7 @@ import Branch from './components/Branch'
 function Home() {
     return (
         <>
-        <h1>FutureDev</h1>
+        {/* <h1>FutureDev</h1> */}
 
         <section id="mission">
             <h2>Our Mission</h2>
