@@ -1,7 +1,13 @@
 import './Home.css'
 import Branch from './components/Branch'
 
+
 function Home() {
+
+    const handleJoin = () => {
+        console.log("Joining!")
+    }
+
     return (
         <>
         {/* <h1>FutureDev</h1> */}
@@ -11,6 +17,7 @@ function Home() {
             <p>Our mission is to create a community centered around mentorship in technology. 
                 With a combination of social events and learning-focused group sessions, 
                 we want to enrich your journey in the tech industry!</p>
+            <button onClick={handleJoin()}> Become a Member! </button>
         </section>
         <section id="branches">
             <Branch title="Web Development" p1="Learn how to build modern websites and web applications using front-end and back-end technologies! 
